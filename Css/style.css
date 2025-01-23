@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background: linear-gradient(135deg, #0F0C58, #4A1760)
+}
+.motherVoice{
+    display: flex;
+flex-direction: column;
+row-gap: 20px;
+}
+.MotherVoiceHeader{
+    font-size: 28px;
+    color: #fff;
+
+}
+.MotherVoiceHeader span {
+color: chartreuse;
+}
+.TextArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px 30px 30px;
+row-gap: 20px;
+    background-color: rgba(190, 238, 143, 0.884);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+.TextArea__input{
+    border: none;
+    outline: none;
+    display: flex;
+    
+    align-items: start;
+    padding: 10px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.Mysign{
+    position: absolute;
+    top: 204px;
+    right: 44px;
+    opacity: 0.2;
+}
+.ButtonBox{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.TextArea__Button{
+    background-color: chartreuse;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.TextArea__Mike{
+    background-color: transparent;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
